@@ -958,3 +958,415 @@ d 13360, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/i
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
 1538615789851	geckodriver::marionette	ERROR	Failed to stop browser process
+1538619272517	geckodriver	INFO	geckodriver 0.20.0
+1538619272523	geckodriver	INFO	Listening on 127.0.0.1:53431
+1538619275609	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\m4k04\\AppData\\Local\\Temp\\rust_mozprofile.n6rDG0UFIysr"
+1538619276904	Marionette	INFO	Listening on port 53443
+1538619277145	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538619277191	Marionette	DEBUG	[6442450945] Frame script loaded
+1538619277192	Marionette	DEBUG	[6442450945] Frame script registered
+1538619277209	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538619277706	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1538619277710	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/
+1538619277738	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/
+1538619283856	Marionette	INFO	Stopped listening on port 53443
+[Parent 18300, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4184, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346[C
+hild 18312, Chrome_ChildThread] WARNING: pipe error: [109: file z:/builChild 1576, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_dwin.cc, line 346
+/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1538619284344	geckodriver::marionette	ERROR	Failed to stop browser process
+1538619371681	geckodriver	INFO	geckodriver 0.20.0
+1538619371687	geckodriver	INFO	Listening on 127.0.0.1:53703
+1538619374795	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\m4k04\\AppData\\Local\\Temp\\rust_mozprofile.CLUc0IDWcGIe"
+1538619376131	Marionette	INFO	Listening on port 53716
+1538619376324	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538619376359	Marionette	DEBUG	[6442450945] Frame script loaded
+1538619376360	Marionette	DEBUG	[6442450945] Frame script registered
+1538619376376	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538619376785	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1538619376855	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/
+1538619376861	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/
+1538619376871	Marionette	INFO	Stopped listening on port 53716
+1538619376893	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: TypeError: setting getter-only property "_currentSearchHostname" (resource://activity-stream/lib/TopSitesFeed.jsm:86:5) JS Stack trace: uninit@TopSitesFeed.jsm:86:5
+onAction@TopSitesFeed.jsm:707:9
+_middleware/</<@Store.jsm:51:11
+Store/this[method]@Store.jsm:29:55
+uninit@Store.jsm:170:7
+uninit@ActivityStream.jsm:363:5
+uninit@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@bootstrap.js:86:5
+shutdown@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@bootstrap.js:194:3
+callBootstrapMethod@XPIProvider.jsm:1592:20
+_shutdown@XPIProvider.jsm:1728:12
+flushAllWindowsAsync@SessionStore.jsm:1697:7
+ssi_onQuitApplicationGranted/<@SessionStore.jsm:1624:27
+trigger@AsyncShutdown.jsm:710:23
+_wait@AsyncShutdown.jsm:857:7
+wait@AsyncShutdown.jsm:841:28
+observe@AsyncShutdown.jsm:524:17
+GeckoDriver.prototype.quit@driver.js:3319:3
+despatch@server.js:297:20
+execute@server.js:271:11
+onPacket/<@server.js:246:15
+onPacket@server.js:245:8
+_onJSONObjectReady/<@transport.js:500:9
+[Child 22908, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 22908, Chro[Child 22900, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 22900, Chr[Parent 12936, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4776, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4776, Chrom[GPU 964, C
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1538619377825	geckodriver::marionette	ERROR	Failed to stop browser process
+1538620006764	geckodriver	INFO	geckodriver 0.20.0
+1538620006769	geckodriver	INFO	Listening on 127.0.0.1:63824
+1538620009846	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\m4k04\\AppData\\Local\\Temp\\rust_mozprofile.pNLFJU7EX5dj"
+1538620011131	Marionette	INFO	Listening on port 63836
+1538620011360	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538620011410	Marionette	DEBUG	[6442450945] Frame script loaded
+1538620011412	Marionette	DEBUG	[6442450945] Frame script registered
+1538620011432	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538620011694	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1538620011697	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/
+1538620011725	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/
+1538620014820	Marionette	INFO	Stopped listening on port 63836
+[Chil[Child 1364, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromiudm/src/chrome/common/ipc_channel_ wi2n.c3c,3 line 346
+92, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1538620015368	geckodriver::marionette	ERROR	Failed to stop browser process
+1538620178191	geckodriver	INFO	geckodriver 0.20.0
+1538620178197	geckodriver	INFO	Listening on 127.0.0.1:64145
+1538620181286	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\m4k04\\AppData\\Local\\Temp\\rust_mozprofile.D6s6tukVTlvB"
+1538620182598	Marionette	INFO	Listening on port 64157
+1538620182813	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538620182842	Marionette	DEBUG	[6442450945] Frame script loaded
+1538620182843	Marionette	DEBUG	[6442450945] Frame script registered
+1538620182861	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538620183144	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1538620183152	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/
+1538620183201	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/
+1538620186308	Marionette	INFO	Stopped listening on port 64157
+[Child[Ch 12084, Chrome_Cild 21892, Chrome_ChildThread] WARNING: pipe error:h 109: file z:i/buildThread] WARNING: pipe error: 109: file z:/build/bld/build/src/uild/srcipc/ch/ipc/chromium/sromium/src/chrome/common/ipc_channel_win.cc, line 346rc/chrom
+e/common/ipc_channel_win.cc, line 346
+[Child 12084,[Child 21888, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21888, Chrom[GPU 5596, Chr
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1538620186851	geckodriver::marionette	ERROR	Failed to stop browser process
+1538620283049	geckodriver	INFO	geckodriver 0.20.0
+1538620283055	geckodriver	INFO	Listening on 127.0.0.1:64385
+1538620286097	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\m4k04\\AppData\\Local\\Temp\\rust_mozprofile.WIxhdHnPMQfC"
+1538620287475	Marionette	INFO	Listening on port 64397
+1538620287608	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538620287641	Marionette	DEBUG	[6442450945] Frame script loaded
+1538620287642	Marionette	DEBUG	[6442450945] Frame script registered
+1538620287671	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538620287959	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1538620287967	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/
+1538620288004	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/
+1538620293492	Marionette	INFO	Stopped listening on port 64397
+[Child 2328, Chrome_ChildThread] WARNING: pipe error: 1[Child 10972, C0hrome9_ChildThread: ] WARNIN[ChiG:ld 14608, Chrome f_Chilpipe idThrlerror: 109: file z:/build/buileead] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/commd o/znsrc/ipc/chromium/src/chrome/common/ipc_ch:/annel_win.cc, line 346ipc/
+_bchannel_win.cc, linuie ld346
+/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1538620294003	geckodriver::marionette	ERROR	Failed to stop browser process
+1538620331877	geckodriver	INFO	geckodriver 0.20.0
+1538620331883	geckodriver	INFO	Listening on 127.0.0.1:64516
+1538620334939	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\m4k04\\AppData\\Local\\Temp\\rust_mozprofile.UZhS3aSC10K3"
+1538620336167	Marionette	INFO	Listening on port 64529
+1538620336455	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538620336526	Marionette	DEBUG	[6442450945] Frame script loaded
+1538620336527	Marionette	DEBUG	[6442450945] Frame script registered
+1538620336546	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538620336834	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1538620336848	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/
+1538620336900	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/
+1538620342474	Marionette	INFO	Stopped listening on port 64529
+[Chi[Chilld 17768, Chrome_ChildThread] WARNING: pipe ed 18852, Chrror:r ome_ChildThread] WARNIN1G: 0pipe er9r:or: 109: file z:/bui ld/build/src/ipc/chromium/src/chrome/common/ipc_chfannel_iwin.cc, line 346
+le z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1538620343019	geckodriver::marionette	ERROR	Failed to stop browser process
+1538620516402	geckodriver	INFO	geckodriver 0.20.0
+1538620516408	geckodriver	INFO	Listening on 127.0.0.1:64958
+1538620519484	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\m4k04\\AppData\\Local\\Temp\\rust_mozprofile.Q9pUpTjWHfdJ"
+1538620520782	Marionette	INFO	Listening on port 64972
+1538620521002	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538620521044	Marionette	DEBUG	[6442450945] Frame script loaded
+1538620521045	Marionette	DEBUG	[6442450945] Frame script registered
+1538620521061	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538620522333	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538620522336	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1538620522376	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for about:neterror?e=connectionFailure&u=http%3A//localhost%3A8000/&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20localhost%3A8000.
+1538620522387	Marionette	INFO	Stopped listening on port 64972
+[Child 15452, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15452, Ch[Child 21072, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21072, Chro[Parent 14516, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7636, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7636, Chrome_ChildTh[GPU 22184, Chr
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1538620522933	geckodriver::marionette	ERROR	Failed to stop browser process
+1538620545858	geckodriver	INFO	geckodriver 0.20.0
+1538620545864	geckodriver	INFO	Listening on 127.0.0.1:65050
+1538620548959	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\m4k04\\AppData\\Local\\Temp\\rust_mozprofile.vY7wBO7B2Zfq"
+1538620550247	Marionette	INFO	Listening on port 65062
+1538620550481	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538620550505	Marionette	DEBUG	[6442450945] Frame script loaded
+1538620550506	Marionette	DEBUG	[6442450945] Frame script registered
+1538620550522	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538620550840	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1538620550855	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/
+1538620550880	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/
+1538620556300	Marionette	INFO	Stopped listening on port 65062
+[Child 17[Child 22424, Chrome_ChildThread]104, Chrome_ChildThre ad] WARNING: pipe error: 109: fiWle z:/build/bui[ARNING: pipe erlCror: 109: hildfd/src 21940, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/c/ihrome/common/ipc_channel_win.cc, line 346il
+pec/chromium/src/ chrome/common/ipc_channel_z:/buildw/buildi/src/ipc/chromium/snrc/ch.cc, lrinome/comem on/ipc_channel_win.cc, line 343466
+
+[[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1538620556797	geckodriver::marionette	ERROR	Failed to stop browser process
+1538620609742	geckodriver	INFO	geckodriver 0.20.0
+1538620609747	geckodriver	INFO	Listening on 127.0.0.1:65222
+1538620612848	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\m4k04\\AppData\\Local\\Temp\\rust_mozprofile.1Hpn6V47pLFG"
+1538620614198	Marionette	INFO	Listening on port 65239
+1538620614376	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538620614420	Marionette	DEBUG	[6442450945] Frame script loaded
+1538620614421	Marionette	DEBUG	[6442450945] Frame script registered
+1538620614435	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538620614703	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1538620664468	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:8000/
+1538620664469	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450945
+[Child 20072, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20072,[Child 17896, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17896, Chrom1538620664721	Marionette	INFO	Stopped listening on port 65239
+[GPU 17752, Chr
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1538620664990	geckodriver::marionette	ERROR	Failed to stop browser process
+1538639051471	geckodriver	INFO	geckodriver 0.19.1
+1538639052200	geckodriver	INFO	Listening on 127.0.0.1:51291
+1538639054643	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\santa\\AppData\\Local\\Temp\\rust_mozprofile.7bArt7oMQIk3"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1538639060865	Marionette	INFO	Listening on port 51302
+1538639061965	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538639062048	Marionette	DEBUG	[6442450945] Frame script loaded
+1538639062052	Marionette	DEBUG	[6442450945] Frame script registered
+1538639062131	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538639063110	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1538639063126	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8081/
+1538639063249	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8081/
+1538639068825	Marionette	INFO	Stopped listening on port 51302
+1538639261860	geckodriver	INFO	geckodriver 0.19.1
+1538639261867	geckodriver	INFO	Listening on 127.0.0.1:51376
+1538639264954	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\santa\\AppData\\Local\\Temp\\rust_mozprofile.69Qkjl2apSCP"
+1538639269138	Marionette	INFO	Listening on port 51384
+1538639270174	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538639270212	Marionette	DEBUG	[6442450945] Frame script loaded
+1538639270214	Marionette	DEBUG	[6442450945] Frame script registered
+1538639270240	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538639270520	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1538639270532	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8081/
+1538639270584	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8081/
+1538639276242	Marionette	INFO	Stopped listening on port 51384
+1538644802217	geckodriver	INFO	geckodriver 0.19.1
+1538644802226	geckodriver	INFO	Listening on 127.0.0.1:51926
+1538644805327	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\santa\\AppData\\Local\\Temp\\rust_mozprofile.2yIp1pWU0AQR"
+1538644808157	Marionette	INFO	Listening on port 51934
+1538644808474	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538644808531	Marionette	DEBUG	[6442450945] Frame script loaded
+1538644808532	Marionette	DEBUG	[6442450945] Frame script registered
+1538644808557	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538644808917	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1538644808928	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8081/
+1538644808997	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8081/
+1538644809324	Marionette	INFO	Stopped listening on port 51934
+1538644809374	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: TypeError: setting getter-only property "_currentSearchHostname" (resource://activity-stream/lib/TopSitesFeed.jsm:86:5) JS Stack trace: uninit@TopSitesFeed.jsm:86:5
+onAction@TopSitesFeed.jsm:707:9
+_middleware/</<@Store.jsm:51:11
+Store/this[method]@Store.jsm:29:55
+uninit@Store.jsm:170:7
+uninit@ActivityStream.jsm:363:5
+uninit@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@bootstrap.js:86:5
+shutdown@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@bootstrap.js:194:3
+callBootstrapMethod@XPIProvider.jsm:1588:20
+_shutdown@XPIProvider.jsm:1724:12
+flushAllWindowsAsync@SessionStore.jsm:1697:7
+ssi_onQuitApplicationGranted/<@SessionStore.jsm:1624:27
+trigger@AsyncShutdown.jsm:710:23
+_wait@AsyncShutdown.jsm:857:7
+wait@AsyncShutdown.jsm:841:28
+observe@AsyncShutdown.jsm:524:17
+GeckoDriver.prototype.quit@driver.js:3319:3
+despatch@server.js:297:20
+execute@server.js:271:11
+onPacket/<@server.js:246:15
+onPacket@server.js:245:8
+_onJSONObjectReady/<@transport.js:500:9
+1538644879381	geckodriver	INFO	geckodriver 0.19.1
+1538644879390	geckodriver	INFO	Listening on 127.0.0.1:51970
+1538644882561	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\santa\\AppData\\Local\\Temp\\rust_mozprofile.ms7SBUu9EIVE"
+1538644885550	Marionette	INFO	Listening on port 51978
+1538644885689	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538644885770	Marionette	DEBUG	[6442450945] Frame script loaded
+1538644885789	Marionette	DEBUG	[6442450945] Frame script registered
+1538644885894	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538644886274	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1538644886305	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8081/
+1538644886415	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8081/
+1538644886799	Marionette	INFO	Stopped listening on port 51978
+1538644886847	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: TypeError: setting getter-only property "_currentSearchHostname" (resource://activity-stream/lib/TopSitesFeed.jsm:86:5) JS Stack trace: uninit@TopSitesFeed.jsm:86:5
+onAction@TopSitesFeed.jsm:707:9
+_middleware/</<@Store.jsm:51:11
+Store/this[method]@Store.jsm:29:55
+uninit@Store.jsm:170:7
+uninit@ActivityStream.jsm:363:5
+uninit@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@bootstrap.js:86:5
+shutdown@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@bootstrap.js:194:3
+callBootstrapMethod@XPIProvider.jsm:1588:20
+_shutdown@XPIProvider.jsm:1724:12
+flushAllWindowsAsync@SessionStore.jsm:1697:7
+ssi_onQuitApplicationGranted/<@SessionStore.jsm:1624:27
+trigger@AsyncShutdown.jsm:710:23
+_wait@AsyncShutdown.jsm:857:7
+wait@AsyncShutdown.jsm:841:28
+observe@AsyncShutdown.jsm:524:17
+GeckoDriver.prototype.quit@driver.js:3319:3
+despatch@server.js:297:20
+execute@server.js:271:11
+onPacket/<@server.js:246:15
+onPacket@server.js:245:8
+_onJSONObjectReady/<@transport.js:500:9
+1538645473997	geckodriver	INFO	geckodriver 0.19.1
+1538645474008	geckodriver	INFO	Listening on 127.0.0.1:52023
+1538645477180	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\santa\\AppData\\Local\\Temp\\rust_mozprofile.x03kXajmz3qj"
+1538645480172	Marionette	INFO	Listening on port 52031
+1538645480301	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538645480375	Marionette	DEBUG	[6442450945] Frame script loaded
+1538645480380	Marionette	DEBUG	[6442450945] Frame script registered
+1538645480470	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538645480791	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1538645480799	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8081/
+1538645480860	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8081/
+1538645481201	Marionette	INFO	Stopped listening on port 52031
+1538645481279	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: TypeError: setting getter-only property "_currentSearchHostname" (resource://activity-stream/lib/TopSitesFeed.jsm:86:5) JS Stack trace: uninit@TopSitesFeed.jsm:86:5
+onAction@TopSitesFeed.jsm:707:9
+_middleware/</<@Store.jsm:51:11
+Store/this[method]@Store.jsm:29:55
+uninit@Store.jsm:170:7
+uninit@ActivityStream.jsm:363:5
+uninit@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@bootstrap.js:86:5
+shutdown@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@bootstrap.js:194:3
+callBootstrapMethod@XPIProvider.jsm:1588:20
+_shutdown@XPIProvider.jsm:1724:12
+flushAllWindowsAsync@SessionStore.jsm:1697:7
+ssi_onQuitApplicationGranted/<@SessionStore.jsm:1624:27
+trigger@AsyncShutdown.jsm:710:23
+_wait@AsyncShutdown.jsm:857:7
+wait@AsyncShutdown.jsm:841:28
+observe@AsyncShutdown.jsm:524:17
+GeckoDriver.prototype.quit@driver.js:3319:3
+despatch@server.js:297:20
+execute@server.js:271:11
+onPacket/<@server.js:246:15
+onPacket@server.js:245:8
+_onJSONObjectReady/<@transport.js:500:9
+1538645742970	geckodriver	INFO	geckodriver 0.19.1
+1538645742982	geckodriver	INFO	Listening on 127.0.0.1:52073
+1538645746100	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\santa\\AppData\\Local\\Temp\\rust_mozprofile.SaZqP7FdHdN4"
+1538645749053	Marionette	INFO	Listening on port 52081
+1538645749224	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538645749310	Marionette	DEBUG	[6442450945] Frame script loaded
+1538645749333	Marionette	DEBUG	[6442450945] Frame script registered
+1538645749444	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538645749791	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1538645749806	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8081/
+1538645749863	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8081/
+1538645750135	Marionette	INFO	Stopped listening on port 52081
+1538645750206	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: TypeError: setting getter-only property "_currentSearchHostname" (resource://activity-stream/lib/TopSitesFeed.jsm:86:5) JS Stack trace: uninit@TopSitesFeed.jsm:86:5
+onAction@TopSitesFeed.jsm:707:9
+_middleware/</<@Store.jsm:51:11
+Store/this[method]@Store.jsm:29:55
+uninit@Store.jsm:170:7
+uninit@ActivityStream.jsm:363:5
+uninit@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@bootstrap.js:86:5
+shutdown@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@bootstrap.js:194:3
+callBootstrapMethod@XPIProvider.jsm:1588:20
+_shutdown@XPIProvider.jsm:1724:12
+flushAllWindowsAsync@SessionStore.jsm:1697:7
+ssi_onQuitApplicationGranted/<@SessionStore.jsm:1624:27
+trigger@AsyncShutdown.jsm:710:23
+_wait@AsyncShutdown.jsm:857:7
+wait@AsyncShutdown.jsm:841:28
+observe@AsyncShutdown.jsm:524:17
+GeckoDriver.prototype.quit@driver.js:3319:3
+despatch@server.js:297:20
+execute@server.js:271:11
+onPacket/<@server.js:246:15
+onPacket@server.js:245:8
+_onJSONObjectReady/<@transport.js:500:9
+1538645887728	geckodriver	INFO	geckodriver 0.19.1
+1538645887735	geckodriver	INFO	Listening on 127.0.0.1:52118
+1538645890881	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\santa\\AppData\\Local\\Temp\\rust_mozprofile.mvvtYdL6S1XJ"
+1538645893967	Marionette	INFO	Listening on port 52126
+1538645894013	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538645894128	Marionette	DEBUG	[6442450945] Frame script loaded
+1538645894129	Marionette	DEBUG	[6442450945] Frame script registered
+1538645894189	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538645894520	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1538645894533	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8081/
+1538645894616	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8081/
+1538645899986	Marionette	INFO	Stopped listening on port 52126
+1538686252110	geckodriver	INFO	geckodriver 0.20.0
+1538686252116	geckodriver	INFO	Listening on 127.0.0.1:61247
+1538686255202	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\m4k04\\AppData\\Local\\Temp\\rust_mozprofile.2IpuFLQC7TyQ"
+1538686256531	Marionette	INFO	Listening on port 61261
+1538686256731	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538686256774	Marionette	DEBUG	[6442450945] Frame script loaded
+1538686256775	Marionette	DEBUG	[6442450945] Frame script registered
+1538686256790	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538686257085	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1538686257091	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8081/
+1538686257121	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8081/
+1538686262252	Marionette	INFO	Stopped listening on port 61261
+[Child 21980, Chrome_[Child 7328, Chrome_ChildThread] WARNCIhNildThreG: pipe earrd] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346[Child 19252, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346or: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/i
+
+pc_channel_win.cc, line 346
+[[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1538686262743	geckodriver::marionette	ERROR	Failed to stop browser process
+1538686621125	geckodriver	INFO	geckodriver 0.20.0
+1538686621130	geckodriver	INFO	Listening on 127.0.0.1:61910
+1538686624469	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\m4k04\\AppData\\Local\\Temp\\rust_mozprofile.XpBJhoROAqLA"
+1538686625763	Marionette	INFO	Listening on port 61922
+1538686625993	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538686626030	Marionette	DEBUG	[6442450945] Frame script loaded
+1538686626031	Marionette	DEBUG	[6442450945] Frame script registered
+1538686626048	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538686626342	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1538686626346	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8081/
+1538686626374	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8081/
+1538686630742	Marionette	INFO	Stopped listening on port 61922
+[Child 13252, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346[Parent 10896, Gecko_IOThread] WARNING: pipe erro
+r: 109: file z:/build/bu[Child 132ild/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 236, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 236, Ch[Child 6476, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6476, Chrome_Ch[GPU 22060, Chr
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1538686631300	geckodriver::marionette	ERROR	Failed to stop browser process
