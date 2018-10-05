@@ -56,8 +56,11 @@ class NewVisitorTest(LiveServerTestCase):
         self.browser.quit()
         self.browser = webdriver.Firefox()
 
+        time.sleep(2)
+
         #francis visits the home page. There is no sign of Edit's list
-        self.browser.get(self.liver_server_url)
+        self.browser.get(self.live_server_url)
+        time.sleep(2)
         page_text = self.browser.find_element_by_tag_name('body').text
         self.assertNotIn('Buy peacock feathers', page_text)
         self.assertNotIn('make a fly', page_text)
@@ -67,8 +70,10 @@ class NewVisitorTest(LiveServerTestCase):
         inputbox.send_keys('Buy milk')
         inputbox.send_keys(Keys.ENTER)
 
+        time.sleep(2)
+
         #Francis gets his own unique URL
-        francis_list_url = self.browser.current.url
+        francis_list_url = self.browser.current_url
         self.assertRegex(francis_list_url, '/lists/.+')
         self.assertNotEqual(francis_list_url, edith_list_url)
 
